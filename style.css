@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    text-align: center;
+    background: #fff0f5;
+    color: #a34f70;
+    font-family: Georgia, serif;
+}
+
+header {
+    padding: 35px 10px;
+    background: #ffe0eb;
+    border: 3px double #e8a0b8;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #c65d82;
+}
+
+h2 {
+    color: #c65d82;
+}
+
+.cartas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 35px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.sobre {
+    background: linear-gradient(135deg, #f8c8d9, #fff8fb);
+    border: 2px solid #df91ad;
+    border-radius: 12px;
+    min-height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 8px 15px #d99bb533;
+    transition: .3s;
+}
+
+.sobre:hover {
+    transform: translateY(-8px) rotate(-2deg);
+    background: #f7c0d3;
+}
+
+.moño {
+    font-size: 40px;
+}
+
+.nombre {
+    margin-top: 12px;
+}
+
+#carta-abierta {
+    max-width: 600px;
+    margin: 45px auto;
+    padding: 35px;
+    background: #fffaf7;
+    border: 2px dashed #df91ad;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px #d99bb533;
+}
+
+#mensaje {
+    white-space: pre-wrap;
+    line-height: 2;
+}
+
+button {
+    padding: 12px 22px;
+    border: 1px solid #df1414;
+    border-radius: 25px;
+    background: #fe6e7e;
+    color: #ed3b44;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f8d6e2;
+}
+
+.oculta {
+    display: none;
+}
+
+footer {
+    margin: 50px 0 15px;
+}
